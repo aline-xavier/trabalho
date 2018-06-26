@@ -1,0 +1,121 @@
+	*{
+	font-family: verdana; /*Mudar estilo da fonte*/
+	margin: 0;    /* Margem externa*/
+}
+.container{
+	  
+	margin: 0 auto;
+}
+header{
+	background-color: #0af; 
+	color: #fff; /*Cor da fonte*/
+	padding: 10px; /*margem interna*/
+	text-align: center;
+	}
+	nav{
+		background-color: #DDD;
+		text-align: center;
+	}
+	.menu{
+		list-style: none;
+	}
+	.menu li{
+		display: inline;
+		text-transform: uppercase; /* lowercase */
+	}
+	.menu li a{
+		text-decoration: none;
+		color: #333;
+		padding: 10px;
+		border-bottom: solid 3px #77f;
+		display: inline-block;
+	}
+	.menu li a:hover{
+		color: #fff;
+		background-color: #048;
+		border-bottom: solid 3px #008;
+	}
+	#principal{
+		min-height: 500px;
+	}
+
+footer{
+	text-align: center;
+	border-top: solid 3px #007;
+	border-bottom: solid 3px #007;
+	padding: 20px 0;
+}
+.bio{
+	text-align: center;
+	border: solid 3px #000;
+	padding: 0px;
+	}
+
+section p{
+	text-align: justify;
+	
+}
+section h1{
+	text-align: center;
+}
+figcaption{
+	text-align: center;
+}
+figure img{
+ 		width: 300px;
+ 		height: 300px;
+ 	}
+.produto{
+	display: inline-block;
+	background-color: #000;
+	padding: 05px;
+	margin: 05px;
+	border-radius: 10px; /* Borda arredondada*/
+	opacity: 0.8;
+ 	}
+ 	.produto:hover{
+ 		opacity: 1;
+ 		
+ 	}
+ 	.produto figcaption{
+ 		color: #fff;
+ 	}
+ 	.produto img{
+ 		border-radius: 10px;
+ 	}
+
+ 	table, tr, td, th{ /*Colocar  borda em toda a tabela, mas precisa indicar quais vc quer envolver*/
+ 		border: solid 1px #00f;
+ 		padding: 10px;
+ 	}
+ 	table{
+ 		width: 70%; /* Largura*/
+ 	}
+ 	table{
+ 		margin: 0 auto; /* centralizar tabela*/
+ 	}
+ 	th{
+ 		background-color: #09f;
+ 		color: #fff
+ 	}
+ 	.listra{
+ 		background-color: #DDD
+ 	}
+ 	.premios{
+	display: inline-block;
+	background-color: #fff;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px; /* Borda arredondada*/
+	opacity: 0.8;
+ 	}
+ 	.premios:hover{
+ 		opacity: 1;
+ 		
+ 	}
+ 	.premios figcaption{
+ 		color: #000;
+ 	}
+ 	.premios img{
+ 		border-radius: 10px;
+ 	}
